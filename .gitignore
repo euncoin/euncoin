@@ -1,0 +1,34 @@
+src/*.exe
+src/euncoin
+src/euncoind
+src/test_euncoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.euncoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+euncoin-qt
+EUNCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+euncoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
